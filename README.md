@@ -1,6 +1,7 @@
 # MEMORIA TÉCNICA DEL PROYECTO
 
 ## DataCheck Studio — Compilador académico para un DSL de validación y filtrado de archivos CSV
+![Compilador](assets/compilador.png)
 
 **Autor:** Jesús Grangeno García
 **Institución:** Tecnológico Nacional de México (TECNM)
