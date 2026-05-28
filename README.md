@@ -1,17 +1,39 @@
-# MEMORIA TÉCNICA DEL PROYECTO
+<div align="center">
 
-## DataCheck Studio — Compilador académico para un DSL de validación y filtrado de archivos CSV
-![hero](assets/hero.png)
+# DataCheck Studio
 
-![Compilador](assets/compilador.png)
+### Compilador académico para un DSL de validación y filtrado de archivos CSV
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-FastAPI-0ea5e9?style=flat-square">
+<img src="https://img.shields.io/badge/Frontend-React-22c55e?style=flat-square">
+<img src="https://img.shields.io/badge/Compiler-DSL-a855f7?style=flat-square">
+<img src="https://img.shields.io/badge/Deploy-Vercel-black?style=flat-square">
+
+</p>
+
+<br>
+
+<a href="https://datacheck-dsl-compiler.vercel.app" target="_blank">
+
+<img src="https://img.shields.io/badge/PROBAR%20SISTEMA%20WEB-00C896?style=for-the-badge&logo=vercel&logoColor=white&labelColor=111827">
+
+</a>
+
+<br><br><br>
+
+<img src="assets/hero.png" width="100%">
+
+</div>
+
+<br>
 
 **Autor:** Jesús Grangeno García
 
 **Institución:** Tecnológico Nacional de México (TECNM)
 
 **Asignatura:** Lenguajes y Autómatas II
-
-**Repositorio local:** `C:\Users\Principal\Documents\Datacheck`
 
 ---
 
