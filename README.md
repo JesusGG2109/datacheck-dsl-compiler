@@ -1,6 +1,8 @@
 # MEMORIA TÉCNICA DEL PROYECTO
 
 ## DataCheck Studio — Compilador académico para un DSL de validación y filtrado de archivos CSV
+![hero](assets/hero.png)
+
 ![Compilador](assets/compilador.png)
 
 **Autor:** Jesús Grangeno García
