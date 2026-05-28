@@ -1190,9 +1190,9 @@ Resultado: dos filas (`30,Ana` y `25,Beto`).
 1. **Compilador funcional de cuatro fases** implementado desde cero, sin librerías de parsing. El pipeline va de texto fuente DSL hasta filas CSV filtradas en una sola llamada a `analyze_source()`.
 2. **Cinco AFD independientes**, cada uno con sus estados, transiciones y estados de aceptación documentados y verificables, incluyendo un Trie-AFD para palabras reservadas.
 3. **Recuperación efectiva de errores** por sincronización a nivel de línea: ningún caso de prueba produce más de un error por sentencia mal escrita.
-4. **Tabla de símbolos enriquecida** con tipo semántico y categoría por identificador, claramente distinta de la tabla léxica.
+4. **Tabla de símbolos enriquecida** con tipo semántico y categoría por identificador, claramente distinta de la tabla léxica.  ![Tokens](assets/tab_tokens.png)
 5. **API REST limpia** con cinco endpoints especializados, cada uno enfocado en una sección del resultado, manteniendo la responsabilidad del compilador en un único orquestador.
-6. **Frontend tipo IDE** con cinco vistas: Editor con resaltado generado por los tokens reales, Documentación, Manual con ejemplos copiables, Trazas formateadas por fase, y Acerca de.
+6. **Frontend tipo IDE** con cinco vistas: Editor con resaltado generado por los tokens reales, Documentación, Manual con ejemplos copiables, Trazas formateadas por fase, y Acerca de.  ![Tipos](assets/tipos_de_tokens.png)  ![Trazas](assets/seccion_trazas.png)  ![Documentación](assets/seccion_documentacion.png)
 7. **Trazabilidad completa** desde la lectura caracter a caracter (`[LECTURA]`) hasta el filtrado CSV (`[CSV] filas aceptadas: N`), inspeccionable en consola y en la vista de Trazas.
 8. **Catálogo de errores** consolidado y consistente, expuesto tanto en código como en la documentación del frontend.
 
