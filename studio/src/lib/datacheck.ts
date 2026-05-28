@@ -118,7 +118,7 @@ type BackendAnalyzeResponse = {
   reglas: BackendRule[]
 }
 
-const API_BASE_URL = import.meta.env.VITE_DATACHECK_API_URL ?? 'http://127.0.0.1:8001'
+const API_BASE_URL = 'https://datacheck-api-8rld.onrender.com'
 
 export async function analyzeDataCheck(source: string, csv: string, signal?: AbortSignal): Promise<AnalysisResult> {
   let response: Response
