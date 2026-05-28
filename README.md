@@ -6,8 +6,11 @@
 ![Compilador](assets/compilador.png)
 
 **Autor:** Jesús Grangeno García
+
 **Institución:** Tecnológico Nacional de México (TECNM)
+
 **Asignatura:** Lenguajes y Autómatas II
+
 **Repositorio local:** `C:\Users\Principal\Documents\Datacheck`
 
 ---
