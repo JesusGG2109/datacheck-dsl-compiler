@@ -1025,7 +1025,7 @@ VALOR         → NUMERO | CADENA`}</DocCode>
               ['304', 'Semántico', 'Columna CSV ausente para campo declarado'],
             ].map(([code, phase, desc]) => (
               <div className="doc-table-row" key={code}>
-                <code className="doc-error-code">#{code}</code><span className={`doc-phase-tag doc-phase-${phase.toLowerCase().slice(0,3)}`}>{phase}</span><span>{desc}</span>
+                <code className="doc-error-code">#{code}</code><span className={`doc-phase-tag doc-phase-${phase.toLowerCase().slice(0, 3)}`}>{phase}</span><span>{desc}</span>
               </div>
             ))}
           </div>
@@ -1263,6 +1263,105 @@ function AboutView() {
                 <span className="about-value">{value}</span>
               </div>
             ))}
+          </div>
+        </DocSection>
+
+        <DocSection title="VIDEO DEMOSTRATIVO">
+          <div
+            style={{
+              position: 'relative',
+              overflow: 'hidden',
+              border: '1px solid rgba(16, 185, 129, 0.35)',
+              background:
+                'linear-gradient(135deg, rgba(16,185,129,0.18), rgba(5,15,25,0.92))',
+              borderRadius: '28px',
+              padding: '32px',
+              marginTop: '18px',
+              boxShadow: '0 0 40px rgba(16,185,129,0.12)',
+            }}
+          >
+            {/* Glow decorativo */}
+            <div
+              style={{
+                position: 'absolute',
+                top: '-80px',
+                right: '-80px',
+                width: '220px',
+                height: '220px',
+                background: 'rgba(16,185,129,0.12)',
+                borderRadius: '50%',
+                filter: 'blur(50px)',
+              }}
+            />
+
+            <div style={{ position: 'relative', zIndex: 2 }}>
+              <div
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '10px',
+                  padding: '8px 16px',
+                  borderRadius: '999px',
+                  background: 'rgba(16,185,129,0.12)',
+                  border: '1px solid rgba(16,185,129,0.25)',
+                  marginBottom: '18px',
+                  color: '#6ee7b7',
+                  fontWeight: 700,
+                  letterSpacing: '0.5px',
+                }}
+              >
+                 PRESENTACIÓN OFICIAL
+              </div>
+
+              <h2
+                style={{
+                  color: '#ecfdf5',
+                  fontSize: '2rem',
+                  marginBottom: '16px',
+                  lineHeight: 1.1,
+                  fontWeight: 800,
+                }}
+              >
+                Explicación completa del proyecto
+              </h2>
+
+              <p
+                style={{
+                  color: 'rgba(220,255,240,0.82)',
+                  maxWidth: '850px',
+                  lineHeight: 1.8,
+                  fontSize: '1.02rem',
+                }}
+              >
+                En este video se muestra el funcionamiento completo de DataCheck Studio,
+                incluyendo análisis léxico, sintáctico, semántico, manejo de errores,
+                filtrado de archivos CSV y arquitectura general del compilador.
+              </p>
+
+              <a
+                href="https://youtu.be/V1gf6OQZKbI"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '12px',
+                  marginTop: '24px',
+                  background:
+                    'linear-gradient(135deg, #10b981, #34d399)',
+                  color: '#02130d',
+                  padding: '16px 26px',
+                  borderRadius: '16px',
+                  fontWeight: 800,
+                  fontSize: '1rem',
+                  textDecoration: 'none',
+                  boxShadow: '0 10px 30px rgba(16,185,129,0.28)',
+                  transition: 'all 0.25s ease',
+                }}
+              >
+                ▶ Ver video demostrativo
+              </a>
+            </div>
           </div>
         </DocSection>
 
