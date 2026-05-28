@@ -1,0 +1,4 @@
+CAMPO sueldo $ 1000
+REGLA nombre = "Juan
+REGLA nivel ! 5
+
